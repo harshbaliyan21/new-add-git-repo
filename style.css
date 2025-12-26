@@ -1,15 +1,31 @@
-body {
-  font-family: sans-serif;
-  -webkit-font-smoothing: auto;
-  -moz-font-smoothing: auto;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: auto;
-  text-rendering: optimizeLegibility;
-  font-smooth: always;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
 }
 
-h1 {
-  font-size: 1.5rem;
+#main{
+  padding: 20px;
+  margin: 50px auto;
+  background-color: rgb(19, 23, 19);
+  color: white;
+  width: 80%;
+  border-radius: 10px;
+}
+
+#a{
+  padding: 20px;
+  margin: 20px;
+}
+
+#btn1{
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  color: red;
+  background-color: #e51010;
+  border: 1px solid red;
+  cursor: pointer;
 }

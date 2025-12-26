@@ -5,17 +5,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <form style="font-family:Arial; background-color:gray; padding:20px; border-radius:20px;">
-    <label for="name" style="font-weight:bold; font-size:20px; color:blue">
-      Name:
-    </label>
-    <input type="text" id="name" style="font-style:italic; margin-bottom:20px; height:30px; ">
-    <br>
-    <button type="submit" style="background-color:yellow; width:225px; border:1px solid yellow;">Submit</button>
-  </form>
+  <div id="main">
+     <div id="a">  
+  
+  <label for="expenseamount">Choose expense amount:</label>
+      <input type="number" id="expenseamount" name="expenseamount" >
 
+      <label for="Choose discription">Choose discription:</label>
+      <input type="text" id="discription" name="discription"  list="datalist">
+
+      <datalist id="datalist">
+        <option value="Food">
+        <option value="Transport">
+        <option value="petrol">
+        <option value="deasol">
+        </datalist>
+
+        <label for="category">Choose category:</label> 
+      <input type="text" id="category" name="category"  list="datalist1"> 
+      <datalist id="datalist1">
+        <option value="petrol">
+        <option value="food">
+        <option value="Savings">
+        <option value="Investment">
+        </datalist>
+
+        <button onclick="addExpense()" type="submit">Add expense</button>
+        </div>
+        
+        <ul id="showDetail"></ul>
+          
+        </div>
+<script src="index.js"></script>
   </body>
+  
 </html>
