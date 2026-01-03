@@ -1,0 +1,51 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #header {
+            text-align: center;
+            background-color: #6e6ee4;
+            color: rgb(26, 35, 61);
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+		#notescontainer{
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			margin: 20px auto;
+			color: aqua;
+			background-color: rgb(187, 187, 165);
+		}
+        input, textarea {
+            width: 300px;
+            padding: 5px;
+            margin: 5px 0;
+        }
+
+        button {
+            padding: 5px 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            position: relative;
+        }
+
+        li button {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
